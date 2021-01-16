@@ -1,0 +1,258 @@
+html { color: #222; font-size: 1em; line-height: 1.4; box-sizing: border-box; font-family: Calibri, Arial, sans-serif; }
+*, *:before, *:after { box-sizing: inherit; }
+::-moz-selection { background: #b3d4fc; text-shadow: none; }
+::selection { background: #b3d4fc; text-shadow: none; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ audio, canvas, iframe, img, svg, video { vertical-align: middle; }
+fieldset { border: 0; margin: 0; padding: 0; }
+textarea { resize: vertical; }
+/*h1, h2, h3, p { margin: 0; }*/
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body
+{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #cbe7ef;
+}
+
+main
+{
+  flex: 1;
+}
+
+html
+{
+  font-size: calc(14/16 * 1rem);
+  font-size: 87.5%;
+}
+
+header p {
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  margin-bottom: -1.5rem;
+  color: #161f6d;
+}
+
+h1 { font-size: 4.286rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #00abe1;
+ }
+
+h2 { font-size:  2.86rem; 
+}
+
+article h2 { margin: 0; 
+}
+
+h3 { font-size: 1.43rem; 
+}
+
+img { max-width: 100%; 
+}
+
+h1, footer p { margin: 0; 
+}
+
+header, footer
+{
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+main { padding: 2rem; 
+}
+
+main, nav ul
+{  
+  margin: 0 auto;
+}
+
+header {background-color: #fdfff5;
+}
+
+ h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    padding-top: 1rem;
+ }
+
+ h3 {
+  font-size: 1.89rem;
+ }
+
+ p {
+  font-family: 'EB Garamond', serif;
+    font-size: 1.6rem;
+ }
+
+ .intro p {
+  text-align: center;
+ }
+
+ .bodies, .recipe, .intro {
+  padding: 2rem 5rem;
+  border-radius: 25px;
+  background: #00abe1;
+  color: white;
+  width: 90%;
+  margin: auto;
+ }
+
+ .recipe {
+  margin-top: 2rem;
+ }
+
+ .recipe ul li, ol li {
+  font-size: 1.7rem;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: .5rem;
+ }
+
+ /* NAV BAR */
+
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #107896;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 17px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #00abe1;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav a { font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+ }
+
+footer, footer p {
+  background-color: #107896;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.first a, .first p{
+  text-decoration: none;
+  color: #161f6d;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+.first a, .first p:hover {
+  color: white;
+}
+.bottom-border {
+  border-bottom: .5rem dotted white;
+}
+
+.tip p{
+  color: #161f6d;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+header h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+}
+
+.bathphoto, .paperphoto1, .milkphoto, .plasticphoto {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.bathphoto2, .paperphoto2, .milkphoto2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden { display: none !important; }
+.sr-only { border: 0; clip: rect(0, 0, 0, 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; white-space: nowrap; width: 1px; }
+.sr-only.focusable:active, .sr-only.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; white-space: inherit; width: auto;}
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after {  clear: both; }
